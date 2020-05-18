@@ -1,0 +1,8 @@
+Pages\ContactPage.class
+Pages\SignUpPage.class
+Base\TestBase.class
+ExtentReport\ExtentManager.class
+Pages\LoginPage.class
+TestUtil\TestUtil.class
+Pages\HomePage.class
+Pages\DealsPage.class

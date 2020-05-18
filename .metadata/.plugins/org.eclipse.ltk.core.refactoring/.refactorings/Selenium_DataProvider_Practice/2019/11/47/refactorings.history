@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Xls_Reader1.java&apos; to &apos;Maven_Practice_Project1/src/main/java/Xls_Reader1_File&apos;&#x0D;&#x0A;- Original project: &apos;Selenium_DataProvider_Practice&apos;&#x0D;&#x0A;- Destination element: &apos;Maven_Practice_Project1/src/main/java/Xls_Reader1_File&apos;&#x0D;&#x0A;- Original element: &apos;Test_Util_xls1File.Xls_Reader1.java&apos;" description="Copy compilation unit" destination="=Maven_Practice_Project1/src\/main\/java&lt;Xls_Reader1_File" element1="/src\/main\/java&lt;Test_Util_xls1File{Xls_Reader1.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1574122733016" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="324496" started-at="2020-03-23T17:08:35Z" finished-at="2020-03-23T17:13:59Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="324496" started-at="2020-03-23T17:08:35Z" finished-at="2020-03-23T17:13:59Z">
+      <class name="TestClass.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestClass.LoginPageTest@4157f54e]" name="setUp" is-config="true" duration-ms="14359" started-at="2020-03-23T13:12:54Z" finished-at="2020-03-23T13:13:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:TestClass.LoginPageTest@4157f54e]" name="loginTest" duration-ms="7219" started-at="2020-03-23T13:13:08Z" finished-at="2020-03-23T13:13:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestClass.LoginPageTest@4157f54e]" name="tearDown" is-config="true" duration-ms="1044" started-at="2020-03-23T13:13:15Z" finished-at="2020-03-23T13:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestClass.LoginPageTest -->
+      <class name="TestClass.ContactPageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:TestClass.ContactPageTest@6be46e8f]" name="SetUp" is-config="true" duration-ms="21563" started-at="2020-03-23T13:08:36Z" finished-at="2020-03-23T13:08:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="addNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestClass.ContactPageTest@6be46e8f]" name="addNewContact" duration-ms="20703" started-at="2020-03-23T13:08:57Z" data-provider="addnewContact" finished-at="2020-03-23T13:09:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sholshe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestClass.ContactPageTest@6be46e8f]" name="tearDown" is-config="true" duration-ms="1675" started-at="2020-03-23T13:09:18Z" finished-at="2020-03-23T13:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:TestClass.ContactPageTest@6be46e8f]" name="SetUp" is-config="true" duration-ms="23570" started-at="2020-03-23T13:09:19Z" finished-at="2020-03-23T13:09:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="addNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestClass.ContactPageTest@6be46e8f]" name="addNewContact" duration-ms="5011" started-at="2020-03-23T13:09:43Z" data-provider="addnewContact" finished-at="2020-03-23T13:09:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Miss]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Peter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Patel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestClass.ContactPageTest@6be46e8f]" name="tearDown" is-config="true" duration-ms="1106" started-at="2020-03-23T13:09:48Z" finished-at="2020-03-23T13:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:TestClass.ContactPageTest@6be46e8f]" name="SetUp" is-config="true" duration-ms="27084" started-at="2020-03-23T13:09:49Z" finished-at="2020-03-23T13:10:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="addNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestClass.ContactPageTest@6be46e8f]" name="addNewContact" duration-ms="4268" started-at="2020-03-23T13:10:16Z" data-provider="addnewContact" finished-at="2020-03-23T13:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ms.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jamie]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jain]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestClass.ContactPageTest@6be46e8f]" name="tearDown" is-config="true" duration-ms="1249" started-at="2020-03-23T13:10:20Z" finished-at="2020-03-23T13:10:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:TestClass.ContactPageTest@6be46e8f]" name="SetUp" is-config="true" duration-ms="17265" started-at="2020-03-23T13:10:22Z" finished-at="2020-03-23T13:10:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="addNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestClass.ContactPageTest@6be46e8f]" name="addNewContact" duration-ms="5784" started-at="2020-03-23T13:10:39Z" data-provider="addnewContact" finished-at="2020-03-23T13:10:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[V.A.]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cockran]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestClass.ContactPageTest@6be46e8f]" name="tearDown" is-config="true" duration-ms="1044" started-at="2020-03-23T13:10:45Z" finished-at="2020-03-23T13:10:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:TestClass.ContactPageTest@6be46e8f]" name="SetUp" is-config="true" duration-ms="26806" started-at="2020-03-23T13:10:46Z" finished-at="2020-03-23T13:11:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="addNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestClass.ContactPageTest@6be46e8f]" name="addNewContact" duration-ms="4792" started-at="2020-03-23T13:11:13Z" data-provider="addnewContact" finished-at="2020-03-23T13:11:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prof.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tracy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Manjrekar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestClass.ContactPageTest@6be46e8f]" name="tearDown" is-config="true" duration-ms="1057" started-at="2020-03-23T13:11:17Z" finished-at="2020-03-23T13:11:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestClass.ContactPageTest -->
+      <class name="TestClass.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestClass.HomePageTest@327471b5]" name="setUp" is-config="true" duration-ms="19699" started-at="2020-03-23T13:13:16Z" finished-at="2020-03-23T13:13:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checklogo()[pri:1, instance:TestClass.HomePageTest@327471b5]" name="checklogo" duration-ms="35" started-at="2020-03-23T13:13:36Z" finished-at="2020-03-23T13:13:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checklogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestClass.HomePageTest@327471b5]" name="tearDown" is-config="true" duration-ms="1280" started-at="2020-03-23T13:13:36Z" finished-at="2020-03-23T13:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestClass.HomePageTest@327471b5]" name="setUp" is-config="true" duration-ms="18218" started-at="2020-03-23T13:13:37Z" finished-at="2020-03-23T13:13:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickdeals()[pri:2, instance:TestClass.HomePageTest@327471b5]" name="clickdeals" duration-ms="2253" started-at="2020-03-23T13:13:56Z" finished-at="2020-03-23T13:13:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickdeals -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestClass.HomePageTest@327471b5]" name="tearDown" is-config="true" duration-ms="1194" started-at="2020-03-23T13:13:58Z" finished-at="2020-03-23T13:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestClass.HomePageTest -->
+      <class name="TestClass.DealsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestClass.DealsPageTest@3567135c]" name="setUp" is-config="true" duration-ms="19910" started-at="2020-03-23T13:11:18Z" finished-at="2020-03-23T13:11:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="newdealclick()[pri:0, instance:TestClass.DealsPageTest@3567135c]" name="newdealclick" duration-ms="3589" started-at="2020-03-23T13:11:38Z" finished-at="2020-03-23T13:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newdealclick -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestClass.DealsPageTest@3567135c]" name="tearDown" is-config="true" duration-ms="1031" started-at="2020-03-23T13:11:42Z" finished-at="2020-03-23T13:11:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestClass.DealsPageTest@3567135c]" name="setUp" is-config="true" duration-ms="18762" started-at="2020-03-23T13:11:43Z" finished-at="2020-03-23T13:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="sendDataToDeal(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestClass.DealsPageTest@3567135c]" name="sendDataToDeal" duration-ms="3861" started-at="2020-03-23T13:12:02Z" data-provider="NewDealData" finished-at="2020-03-23T13:12:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BOGO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Almac]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Old]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendDataToDeal -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestClass.DealsPageTest@3567135c]" name="tearDown" is-config="true" duration-ms="1133" started-at="2020-03-23T13:12:06Z" finished-at="2020-03-23T13:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestClass.DealsPageTest@3567135c]" name="setUp" is-config="true" duration-ms="18817" started-at="2020-03-23T13:12:07Z" finished-at="2020-03-23T13:12:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="sendDataToDeal(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestClass.DealsPageTest@3567135c]" name="sendDataToDeal" duration-ms="3857" started-at="2020-03-23T13:12:26Z" data-provider="NewDealData" finished-at="2020-03-23T13:12:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50% off]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BBY]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Opportunity]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendDataToDeal -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestClass.DealsPageTest@3567135c]" name="tearDown" is-config="true" duration-ms="1010" started-at="2020-03-23T13:12:29Z" finished-at="2020-03-23T13:12:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestClass.DealsPageTest@3567135c]" name="setUp" is-config="true" duration-ms="18976" started-at="2020-03-23T13:12:31Z" finished-at="2020-03-23T13:12:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="sendDataToDeal(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestClass.DealsPageTest@3567135c]" name="sendDataToDeal" duration-ms="3091" started-at="2020-03-23T13:12:49Z" data-provider="NewDealData" finished-at="2020-03-23T13:12:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[One Free]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aldi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[New]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendDataToDeal -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestClass.DealsPageTest@3567135c]" name="tearDown" is-config="true" duration-ms="1207" started-at="2020-03-23T13:12:53Z" finished-at="2020-03-23T13:12:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestClass.DealsPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

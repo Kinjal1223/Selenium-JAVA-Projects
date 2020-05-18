@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <parameter name="password" value="patel"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="username" value="kinjal"/>
+  <test thread-count="5" name="Test">
+    <parameter name="password" value="patel"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="username" value="kinjal"/>
+    <groups>
+      <dependencies>
+        <group depends-on="one-include-method" name="one-exclude-method"/>
+        <group depends-on="one-exclude-method" name="one-last-method"/>
+      </dependencies>
+    </groups>
+    <classes>
+      <class name="Test.ParameterAnnotationTestNG">
+        <methods>
+          <include name="first"/>
+          <include name="method1"/>
+          <include name="method2"/>
+          <include name="method3"/>
+        </methods>
+      </class> <!-- Test.ParameterAnnotationTestNG -->
+      <class name="Test.softAssert1"/>
+      <class name="Test.dataProvider"/>
+      <class name="Test.HardAssert"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)" parallel="none">
+    <parameter name="password" value="patel"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="username" value="kinjal"/>
+    <classes>
+      <class name="Test.ParameterAnnotationTestNG">
+        <methods>
+          <include name="login"/>
+          <include name="browsername"/>
+        </methods>
+      </class> <!-- Test.ParameterAnnotationTestNG -->
+      <class name="Test.softAssert1">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- Test.softAssert1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

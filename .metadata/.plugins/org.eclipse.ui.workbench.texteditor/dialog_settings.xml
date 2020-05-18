@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="&#x0D;&#x0A;#Given user is already on login page&#x0D;&#x0A;#When title of login page is Free CRM&#x0D;&#x0A;#Then User enters username and password&#x0D;&#x0A;#Then user clicks on login button&#x0D;&#x0A;#Then user is on home page"/>
+		<list key="findhistory">
+			<item value="&#x0D;&#x0A;#Given user is already on login page&#x0D;&#x0A;#When title of login page is Free CRM&#x0D;&#x0A;#Then User enters username and password&#x0D;&#x0A;#Then user clicks on login button&#x0D;&#x0A;#Then user is on home page"/>
+			<item value="Scenario: Free CRM Login Test Scenario"/>
+			<item value="addsheet"/>
+			<item value="Cell.CELL_TYPE_STRING"/>
+			<item value="Cell.CELL_TYPE_"/>
+		</list>
+		<list key="replacehistory">
+			<item value="Cell.CellType.String"/>
+			<item value="CellType."/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="645"/>
+		<item key="DIALOG_Y_ORIGIN" value="143"/>
+		<item key="DIALOG_WIDTH" value="327"/>
+		<item key="DIALOG_HEIGHT" value="436"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-30|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

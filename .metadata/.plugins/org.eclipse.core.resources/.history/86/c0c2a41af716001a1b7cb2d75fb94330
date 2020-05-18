@@ -1,0 +1,94 @@
+//Day 54,55
+
+package dfPack.tests;
+
+import java.util.HashMap;
+
+import org.testng.SkipException;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
+
+import dfPack.base.BaseTest;
+import dfPack.util.DataUtil;
+import dfPack.util.ExtentManager;
+import dfPack.util.MyXLSReader;
+
+public class LoginTest extends BaseTest {
+
+	@BeforeClass
+	public void init()
+	{
+		loadProFile();
+	}
+
+	@DataProvider
+	public Object[][] getData() 
+	{
+		Object[][] obj = null;
+		
+	   //Read data from excel file
+		try
+		{
+		  xlsx= new MyXLSReader(prop.getProperty("xlsFilePath")); // xlsFilePath is from ".properties" file
+		  	
+		 /* 
+		 DataUtil.getTestData(xls, ClassName, sheetName)
+		 To get data fom getTestData method of DataUtil.java 
+		 */
+		  obj = DataUtil.getTestData(xlsx, "LoginTest", "Data");
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		return obj;
+	}
+	
+	//Video 55: from43 min
+    @Test(dataProvider="getdata")
+    public void doLoginTest(HashMap<String,String> map)
+    {
+
+       	eReports = ExtentManager.getInstance();
+    	
+    	eTest= eReports.startTest("LoginTest");
+    	
+    	eTest.log(LogStatus.INFO, "Login Test Started");
+    	
+    	//if(Check testcase is runnable or not || check 
+    	if(!DataUtil.isRunnable(xlsx, "LoginTest", "TestCases") || map.get("Runmode").equals("N"));
+    	{
+    		eTest.log(LogStatus.INFO, "Skipping the test as the run mode is set to N");
+    		
+    		//Intensonaly throwing exception
+    		throw new SkipException("skipping test as run mode is set to N");	
+    	}
+    	
+    	//Automation code starts here: Day 55 (01:01:55 time)
+    	openBrowser(map.get("Browser"));
+    	
+    	navigate("appURL");
+    	
+    	boolean actualResult = doLogin(map.get("Username"), map.get("Password"));
+    	
+    	 String expectedRes =  map.get("ExpectedResult");
+    	
+    	boolean expectedResult;
+    	
+    	if(expectedRes.equalsIgnoreCase("Failure"))
+    	{
+    		expectedResult = false;
+    	}
+    	else if(expectedRes.equalsIgnoreCase("Success"))
+    	{
+    		expectedResult=true;
+    	}
+
+    }
+    
+   }

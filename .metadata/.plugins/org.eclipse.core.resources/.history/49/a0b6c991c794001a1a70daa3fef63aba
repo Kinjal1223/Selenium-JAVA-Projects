@@ -1,0 +1,88 @@
+package Test;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class JavascriptExecutor1 {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Eclips\\SELENIUM PROJECTS\\chromedriver.exe");
+		
+		WebDriver driver= new ChromeDriver();
+		
+		 driver.navigate().to("http://omayo.blogspot.com/"); //Same as 'get' command
+		 
+		 driver.manage().window().maximize();
+		 
+		 Thread.sleep(3000);
+		 
+		 
+		         
+		 //Send Values to textbox using JavascriptExecutor: Method1
+		
+		 WebElement element = driver.findElement(By.id("ta1"));
+		 
+		 
+		 js.executeScript("arguments[0].value='kinjal';", element);
+		 
+		 System.out.println("Hello");
+		 		 
+		 driver.navigate().refresh();
+		 
+		 
+				  
+		 //Send Values to textbox using JavascriptExecutor: Method2
+		 
+		 JavascriptExecutor js = (JavascriptExecutor)driver;
+
+		 
+		 js.executeScript("document.getElementById('ta1').value='kinjal';");
+		 
+		 System.out.println("Welcome");
+		 
+		 driver.navigate().refresh();	
+		 
+		 
+        //Click on RadioButton/CheckBox which is Disabled using JS
+		 
+		 js.executeScript("document.getElementById('radio1').click();");
+		 
+		 System.out.println("Checkbox Selected ");
+		 
+		 Thread.sleep(3000);
+		 
+		 //Unchecked RadioButton/CheckBox
+		 
+		 js.executeScript("document.getElementById('checkbox1').checked=false;");
+		 
+		 System.out.println("Checkbox unchecked ");
+		  
+		 Thread.sleep(3000);
+
+		 
+		 
+		 
+		 //Command to Highlight Element using JS
+		 
+		 WebElement highlight = driver.findElement(By.id("pah"));
+		 
+		 js.executeScript("arguments[0].setAttribute('style','background: blue; border: 2px solid red;');",highlight);
+		 
+		 System.out.println("Element Highlighted");
+		 
+		 
+		 //The method to read the JavaScript Variable
+		 
+		 String strTitle = (String)js.executeScript("return document.title");
+		
+		 System.out.println("Webpage Title: " + strTitle);
+
+		 
+		 //driver.close();
+	}
+
+}

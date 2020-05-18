@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Eclips\CoreJAVAPrograms\src\WhileStatments"/>
+			<item value="C:\Eclips\Nidhi Project\src\ReadData.java"/>
+			<item value="D:\Eclips\Selenium_Framework_Project\Maven_Practice_Project1\src\test\java\Test_Data"/>
+			<item value="D:\Eclips\Selenium_Framework_Concepts_Projects\Selenium_Practice_Projects\src\DDF_Test_Utility"/>
+			<item value="D:\Eclips\Selenium_Framework_Concepts_Projects\DDFProj\src\test\java\ddfPack\base\BaseTest.java"/>
+			<item value="D:\Eclips\Selenium_Framework_Concepts_Projects\Selenium_DataProvider_Practice\src\main\java\TestNGData\LoginTest.java"/>
+			<item value="D:\Eclips\FreeCRMBDDFramework\src\test\java\FbStepDefinition"/>
+			<item value="D:\Eclips\Selenium_Framework_Project\SeleniumDataDrivenFram\src\test\java\dfPack"/>
+			<item value="D:\Eclips\Selenium_Practice_Projects"/>
+			<item value="D:\Eclips\SeleniumProj2\src\Demo2.java"/>
+			<item value="D:\Eclips\DDFProj"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="CoreJavaProgram2020.JAVABasic"/>
+		</list>
+		<list key="groupId">
+			<item value="CoreJavaProgram2020"/>
+		</list>
+		<list key="artifactId">
+			<item value="2020JAVABasic"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\GitHubRepos\Method2DemoCRM"/>
+			<item value="D:\GitHubRepos"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="CoreJAVAPrograms"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="CoreJAVAPrograms"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

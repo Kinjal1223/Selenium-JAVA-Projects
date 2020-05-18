@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="com.crm.qa.test.ContactsPageTest"/>
+      <class name="com.crm.qa.test.HomePageTest"/>
+      <class name="com.crm.qa.test.LoginPageTest"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.crm.qa.test.HomePageTest">
+        <methods>
+          <include name="verifyContactslinkTest"/>
+          <include name="verifyUserNameTest"/>
+          <include name="verifyHomePageTitle"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.test.HomePageTest -->
+      <class name="com.crm.qa.test.LoginPageTest">
+        <methods>
+          <include name="loginPageTitleTest"/>
+          <include name="crmLogoImageTest"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.test.LoginPageTest -->
+      <class name="com.crm.qa.test.ContactsPageTest">
+        <methods>
+          <include name="selectSingleContactsByNameTest"/>
+          <include name="validateCreateNewContact"/>
+          <include name="selectMultipleContactsByNameTest"/>
+          <include name="verifyContactsLabel"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.test.ContactsPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

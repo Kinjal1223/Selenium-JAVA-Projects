@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="124329" started-at="2020-03-23T14:24:17Z" finished-at="2020-03-23T14:26:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="124329" started-at="2020-03-23T14:24:17Z" finished-at="2020-03-23T14:26:21Z">
+      <class name="TestClass.ContactPageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:TestClass.ContactPageTest@6d4b1c02]" name="SetUp" is-config="true" duration-ms="17791" started-at="2020-03-23T10:24:17Z" finished-at="2020-03-23T10:24:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="addNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestClass.ContactPageTest@6d4b1c02]" name="addNewContact" duration-ms="4543" started-at="2020-03-23T10:24:35Z" data-provider="addnewContact" finished-at="2020-03-23T10:24:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sholshe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestClass.ContactPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="1034" started-at="2020-03-23T10:24:40Z" finished-at="2020-03-23T10:24:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:TestClass.ContactPageTest@6d4b1c02]" name="SetUp" is-config="true" duration-ms="17834" started-at="2020-03-23T10:24:41Z" finished-at="2020-03-23T10:24:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="addNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestClass.ContactPageTest@6d4b1c02]" name="addNewContact" duration-ms="3651" started-at="2020-03-23T10:24:58Z" data-provider="addnewContact" finished-at="2020-03-23T10:25:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Miss]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Peter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Patel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestClass.ContactPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="929" started-at="2020-03-23T10:25:02Z" finished-at="2020-03-23T10:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:TestClass.ContactPageTest@6d4b1c02]" name="SetUp" is-config="true" duration-ms="18640" started-at="2020-03-23T10:25:03Z" finished-at="2020-03-23T10:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="addNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestClass.ContactPageTest@6d4b1c02]" name="addNewContact" duration-ms="5008" started-at="2020-03-23T10:25:22Z" data-provider="addnewContact" finished-at="2020-03-23T10:25:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ms.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jamie]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jain]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestClass.ContactPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="892" started-at="2020-03-23T10:25:27Z" finished-at="2020-03-23T10:25:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:TestClass.ContactPageTest@6d4b1c02]" name="SetUp" is-config="true" duration-ms="17920" started-at="2020-03-23T10:25:28Z" finished-at="2020-03-23T10:25:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="addNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestClass.ContactPageTest@6d4b1c02]" name="addNewContact" duration-ms="4930" started-at="2020-03-23T10:25:46Z" data-provider="addnewContact" finished-at="2020-03-23T10:25:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[V.A.]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cockran]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestClass.ContactPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="907" started-at="2020-03-23T10:25:50Z" finished-at="2020-03-23T10:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:TestClass.ContactPageTest@6d4b1c02]" name="SetUp" is-config="true" duration-ms="21799" started-at="2020-03-23T10:25:51Z" finished-at="2020-03-23T10:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="addNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestClass.ContactPageTest@6d4b1c02]" name="addNewContact" duration-ms="6915" started-at="2020-03-23T10:26:13Z" data-provider="addnewContact" finished-at="2020-03-23T10:26:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prof.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tracy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Manjrekar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestClass.ContactPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="968" started-at="2020-03-23T10:26:20Z" finished-at="2020-03-23T10:26:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestClass.ContactPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

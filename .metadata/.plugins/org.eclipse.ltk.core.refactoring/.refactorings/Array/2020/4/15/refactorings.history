@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 6 elements to &apos;CoreJAVAPrograms/src/Array&apos;&#x0D;&#x0A;- Original project: &apos;Array&apos;&#x0D;&#x0A;- Destination element: &apos;CoreJAVAPrograms/src/Array&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Array3.java&#x0D;&#x0A;     Array1.java&#x0D;&#x0A;     Array2.java&#x0D;&#x0A;     TwoDArrayu.java&#x0D;&#x0A;     ObjectClassDemo.java&#x0D;&#x0A;     TwoDArray1.java" description="Copy compilation units" destination="=CoreJAVAPrograms/src&lt;Array" element1="/src&lt;{Array3.java" element2="/src&lt;{Array1.java" element3="/src&lt;{Array2.java" element4="/src&lt;{TwoDArrayu.java" element5="/src&lt;{ObjectClassDemo.java" element6="/src&lt;{TwoDArray1.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1586629648486" units="6" version="1.0"/>
+</session>

@@ -1,0 +1,181 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 36, Failures: 3, Errors: 0, Skipped: 33, Time elapsed: 8.234 sec <<< FAILURE!
+setUp(com.crm.qa.test.ContactsPageTest)  Time elapsed: 4.247 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KU574QB', ip: '192.168.1.164', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0086A923+1550627]
+	Ordinal0 [0x007EA731+1025841]
+	Ordinal0 [0x0076C715+509717]
+	Ordinal0 [0x006FFC68+64616]
+	Ordinal0 [0x006FC594+50580]
+	Ordinal0 [0x0071ACE7+175335]
+	Ordinal0 [0x0071A8ED+174317]
+	Ordinal0 [0x00718CDB+167131]
+	Ordinal0 [0x0070144A+70730]
+	Ordinal0 [0x007024D0+74960]
+	Ordinal0 [0x00702469+74857]
+	Ordinal0 [0x008042F7+1131255]
+	GetHandleVerifier [0x0090711D+523789]
+	GetHandleVerifier [0x00906EB0+523168]
+	GetHandleVerifier [0x0090E207+552695]
+	GetHandleVerifier [0x0090791A+525834]
+	Ordinal0 [0x007FB82C+1095724]
+	Ordinal0 [0x0080636B+1139563]
+	Ordinal0 [0x008064D3+1139923]
+	Ordinal0 [0x00805455+1135701]
+	BaseThreadInitThunk [0x76F36359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BE7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77BE7B44+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:65)
+	at com.crm.qa.test.ContactsPageTest.setUp(ContactsPageTest.java:32)
+
+setUp(com.crm.qa.test.HomePageTest)  Time elapsed: 1.316 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KU574QB', ip: '192.168.1.164', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0086A923+1550627]
+	Ordinal0 [0x007EA731+1025841]
+	Ordinal0 [0x0076C715+509717]
+	Ordinal0 [0x006FFC68+64616]
+	Ordinal0 [0x006FC594+50580]
+	Ordinal0 [0x0071ACE7+175335]
+	Ordinal0 [0x0071A8ED+174317]
+	Ordinal0 [0x00718CDB+167131]
+	Ordinal0 [0x0070144A+70730]
+	Ordinal0 [0x007024D0+74960]
+	Ordinal0 [0x00702469+74857]
+	Ordinal0 [0x008042F7+1131255]
+	GetHandleVerifier [0x0090711D+523789]
+	GetHandleVerifier [0x00906EB0+523168]
+	GetHandleVerifier [0x0090E207+552695]
+	GetHandleVerifier [0x0090791A+525834]
+	Ordinal0 [0x007FB82C+1095724]
+	Ordinal0 [0x0080636B+1139563]
+	Ordinal0 [0x008064D3+1139923]
+	Ordinal0 [0x00805455+1135701]
+	BaseThreadInitThunk [0x76F36359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BE7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77BE7B44+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:65)
+	at com.crm.qa.test.HomePageTest.setUp(HomePageTest.java:30)
+
+setUp(com.crm.qa.test.LoginPageTest)  Time elapsed: 1.499 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KU574QB', ip: '192.168.1.164', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0086A923+1550627]
+	Ordinal0 [0x007EA731+1025841]
+	Ordinal0 [0x0076C715+509717]
+	Ordinal0 [0x006FFC68+64616]
+	Ordinal0 [0x006FC594+50580]
+	Ordinal0 [0x0071ACE7+175335]
+	Ordinal0 [0x0071A8ED+174317]
+	Ordinal0 [0x00718CDB+167131]
+	Ordinal0 [0x0070144A+70730]
+	Ordinal0 [0x007024D0+74960]
+	Ordinal0 [0x00702469+74857]
+	Ordinal0 [0x008042F7+1131255]
+	GetHandleVerifier [0x0090711D+523789]
+	GetHandleVerifier [0x00906EB0+523168]
+	GetHandleVerifier [0x0090E207+552695]
+	GetHandleVerifier [0x0090791A+525834]
+	Ordinal0 [0x007FB82C+1095724]
+	Ordinal0 [0x0080636B+1139563]
+	Ordinal0 [0x008064D3+1139923]
+	Ordinal0 [0x00805455+1135701]
+	BaseThreadInitThunk [0x76F36359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BE7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77BE7B44+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:65)
+	at com.crm.qa.test.LoginPageTest.setUp(LoginPageTest.java:25)
+

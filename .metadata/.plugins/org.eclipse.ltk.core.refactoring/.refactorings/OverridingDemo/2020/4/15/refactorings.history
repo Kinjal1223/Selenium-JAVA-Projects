@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;CoreJAVAPrograms/src/MethodOverriding&apos;&#x0D;&#x0A;- Original project: &apos;OverridingDemo&apos;&#x0D;&#x0A;- Destination element: &apos;CoreJAVAPrograms/src/MethodOverriding&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Benz.java&#x0D;&#x0A;     Car.java&#x0D;&#x0A;     Demo.java" description="Copy compilation units" destination="=CoreJAVAPrograms/src&lt;MethodOverriding" element1="/src&lt;{Benz.java" element2="/src&lt;{Car.java" element3="/src&lt;{Demo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1586631160599" units="3" version="1.0"/>
+</session>

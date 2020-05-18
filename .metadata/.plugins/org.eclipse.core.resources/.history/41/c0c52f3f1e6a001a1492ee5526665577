@@ -1,0 +1,33 @@
+package Test;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class RegirectingToAnotherPage {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.gecko.driver","C:\\Eclips\\SELENIUM PROJECTS\\geckodriver.exe");
+		
+		WebDriver driver= new FirefoxDriver();
+		
+		driver.manage().timeouts().implicitlyWait(1000, TimeUnit.MILLISECONDS);
+		
+		driver.get("https://www.crmpro.com/");
+		
+     	WebElement loginpage = driver.findElement(By.className("form-control"));
+		loginpage.sendKeys("kinjal");
+		
+		WebElement signinlink = driver.findElement(By.linkText("Sign Up"));
+		signinlink.click();
+		
+		driver.navigate().back();
+		
+		
+	}
+
+}
