@@ -80,8 +80,4 @@ public class ApolloHospital extends GlobalPatientData implements USMedical, UKMe
 	{
 		System.out.println("AP - pathalogyServices");
 	}
-
-	
-
-	
 }
