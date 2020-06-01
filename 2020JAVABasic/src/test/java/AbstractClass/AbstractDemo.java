@@ -1,6 +1,7 @@
 package AbstractClass;
 
-public abstract class AbstractDemo {
+public abstract class AbstractDemo 
+{
 	
 	public abstract void startCar();
 	
